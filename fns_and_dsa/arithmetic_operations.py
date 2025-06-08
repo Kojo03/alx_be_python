@@ -14,6 +14,7 @@ def perform_operation(num1: float, num2: float, operation: str):
         float or str: The result of the operation or a specific
                       message if division by zero occurs.
     """
+def perform_operation(num1, num2, operation):
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
